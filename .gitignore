@@ -1,1 +1,31 @@
+# Dependency directories
+node_modules/
+*/node_modules/
+
+# Cache directories
+.cache/
+*.cache/
 frontend/node_modules/.cache/
+
+# Build outputs
+dist/
+build/
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
